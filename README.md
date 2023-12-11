@@ -3,12 +3,6 @@
 ## Project Title
 Language Translation Service
 
-## Team Members and Affiliation
-- Vikas Manchikant (vikasman@buffalo.edu)
-- Priyanka Chakraborty (priyank2@buffalo.edu)
-- Bhanu Sahith Bonthula (bhanusah@buffalo.edu)
-- Department of Computer Science, University at Buffalo
-
 ## Project Description
 This project focuses on developing a neural machine translation model for translating text from English to French. It leverages advanced techniques like sequence-to-sequence architecture, bidirectional LSTM, and attention mechanisms to accurately capture linguistic details.
 
@@ -43,17 +37,17 @@ To run this project, ensure the following libraries and packages are installed:
 - seaborn
 - collections (Counter)
 
-## How to Use
-(Instructions on setting up, installing dependencies, and running the project.)
 
-## Contributing
-(Information on how others can contribute to the project, if applicable.)
 
-## License
-(Information about the project's license.)
+## Future Work
+- **Expanding Language Support**: Extending the model to support additional language pairs beyond English and French.
+- **Improving Model Accuracy**: Implementing more sophisticated neural network architectures to enhance translation accuracy and fluency.
+- **Optimization for Speed**: Optimizing the model for faster translation times, making it more suitable for real-time applications.
+- **User Interface Enhancements**: Developing a more intuitive and user-friendly interface for the translation service.
+- **Incorporating Feedback Loop**: Implementing a system for users to provide feedback on translations, which can be used to further train and refine the model.
+- **Exploring Advanced NLP Techniques**: Investigating the use of newer NLP techniques and models to improve translation quality.
 
-## Contact Information
-For further inquiries or contributions, please contact:
-- Vikas Manchikant: vikasman@buffalo.edu
-- Priyanka Chakraborty: priyank2@buffalo.edu
-- Bhanu Sahith Bonthula: bhanusah@buffalo.edu
+## Dataset
+The dataset used in this project is an English-French translation dataset, consisting of parallel sentences in both languages. It's essential for training the neural machine translation model. The dataset can be accessed [here](https://www.kaggle.com/datasets/devicharith/language-translation-englishfrench).
+
+
