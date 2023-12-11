@@ -15,6 +15,9 @@ This project focuses on developing a neural machine translation model for transl
 ## Performance Evaluation
 The model's performance was evaluated using BLEU scores and accuracy metrics. The Seq2Seq model with Bidirectional LSTM and Attention Mechanism using the Adam Optimizer and Cross-Entropy Loss Function achieved the highest BLEU score of 35.6.
 
+## Dataset
+The dataset used in this project is an English-French translation dataset, consisting of parallel sentences in both languages. It's essential for training the neural machine translation model. The dataset can be accessed [here](https://www.kaggle.com/datasets/devicharith/language-translation-englishfrench).
+
 ## Google Cloud Platform Demo
 The project's demo is hosted on Google Cloud Platform (GCP) and can be accessed at http://35.245.152.69:5000/. The interface was developed using Flask, HTML, and CSS.
 
@@ -47,7 +50,6 @@ To run this project, ensure the following libraries and packages are installed:
 - **Incorporating Feedback Loop**: Implementing a system for users to provide feedback on translations, which can be used to further train and refine the model.
 - **Exploring Advanced NLP Techniques**: Investigating the use of newer NLP techniques and models to improve translation quality.
 
-## Dataset
-The dataset used in this project is an English-French translation dataset, consisting of parallel sentences in both languages. It's essential for training the neural machine translation model. The dataset can be accessed [here](https://www.kaggle.com/datasets/devicharith/language-translation-englishfrench).
+
 
 
